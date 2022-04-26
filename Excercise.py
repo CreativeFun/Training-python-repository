@@ -9,7 +9,6 @@ for n in x:
     if n % 5 != 0 and n % 7 == 0:
         print(n, end=", ")
 """
-import math
 
 """
 #Excercise 2
