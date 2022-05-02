@@ -165,3 +165,29 @@ for row in Tablica:
         print(row.upper())
 
 """
+
+"""
+#Excercise 10
+
+Lista =  input().split()
+
+
+Lista2 = list(set(Lista))
+
+Lista2.sort()
+
+print(Lista2)
+"""
+
+#Excercise 11
+
+x = input().split()
+
+for i in range(len(x)):
+    x[i] = int(x[i],2)
+    if x[i] % 5 == 0:
+        x[i] = bin(x[i])
+        print(x[i][2:],end=' ')
+
+
+
